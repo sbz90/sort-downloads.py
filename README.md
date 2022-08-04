@@ -8,7 +8,7 @@ Checks the Users Downloads Directory and moves downloaded files regarding the fi
 
 Can be easily extended for different file extensions
 
-I use `incron` to run the script on new downloads:
+I use [incron](https://packages.debian.org/buster/incron) to run the script on new downloads:
 ```
 simon@pop-os:~$ incrontab -l
 
