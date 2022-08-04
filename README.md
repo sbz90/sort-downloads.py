@@ -1,6 +1,7 @@
 # sort-downloads.py
 *Learning Python, not an expert!*
-** the forward-slashes in directory variables only work for linux and macOS. For Windows you will have to use backslashes **
+
+**the forward-slashes in directory variables only work for linux and macOS. For Windows you will have to use backslashes**
 
 ## What is it doing?
 Checks the Users Downloads Directory and moves downloaded files regarding the file extension.
