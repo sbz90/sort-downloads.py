@@ -12,6 +12,6 @@ I use [incron](https://packages.debian.org/buster/incron) to run the script on n
 ```
 simon@pop-os:~$ incrontab -l
 
-<src_dir>	IN_CREATE	<path_to_sort-downloads.py>
+<src_dir>	IN_CREATE,IN_CLOSE_WRITE,IN_MOVED_TO	<path_to_sort-downloads.py>
 ```
 the script obviously needs to be executable for the incron-user.
